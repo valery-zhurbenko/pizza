@@ -1,0 +1,19 @@
+# dockerhub user and pass
+variable "docker_user" {
+  type = string
+  default = "<docker_user>"
+}
+variable "docker_pass" {
+  type = string
+  default = "<docker_pass>"
+}
+variable "docker_host" {
+  type = string
+  default = "<docker_host ip>"
+}
+variable "docker_image" {
+  type = string
+  default = "<docker_image name in dockerhub"
+}
+
+
