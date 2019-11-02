@@ -1,3 +1,14 @@
+#To run it need:
+
+1. Docker cli installed locally.
+2. Terraform cli installed locally.
+3. Unzip the file.
+4. "cd" into the folder.
+5. Copy var.tf.tmp to var.tmp and fill variables.
+6. Run "terraform apply", confirm resource creation.
+
+**Originally from https://github.com/devops-bigid/pizza-express**
+
 # Building and Unit Testing an Express Application
 
 **Nota bene:** You do not need to clone this repository. You will be building this application from first principles. This repository does, however, contain the final result.
